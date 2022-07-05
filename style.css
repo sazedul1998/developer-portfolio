@@ -11,7 +11,7 @@ h1 {
     color: rgb(243, 145, 8);
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -52,4 +52,34 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.expert {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px rgb(88, 11, 11);
+    border-radius: 10px;
+    border-left: 7px solid rgb(43, 0, 255);
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full {
+    border-left: 7px solid rgb(255, 77, 0);
+    border-top: 7px solid rgb(255, 77, 0);
+}
+
+#halff {
+    border-left: 7px solid blue;
+    border-top: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
